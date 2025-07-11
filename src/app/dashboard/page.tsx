@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { BarChart2, User, Zap, ArrowRight, Plus } from "lucide-react";
+import { BarChart2, User, Zap, ArrowRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import { useRouter } from "next/navigation";
 
@@ -68,7 +68,7 @@ export default function DashboardPage() {
           <ul className="divide-y divide-border">
             <li className="py-3 flex items-center justify-between">
               <span className="text-main">
-                Generated audio for "Product Demo"
+                Generated audio for &quot;Product Demo&quot;
               </span>
               <span
                 className="text-xs text-secondary"
@@ -87,7 +87,9 @@ export default function DashboardPage() {
               </span>
             </li>
             <li className="py-3 flex items-center justify-between">
-              <span className="text-main">Created new voice "AI Narrator"</span>
+              <span className="text-main">
+                Created new voice &quot;AI Narrator&quot;
+              </span>
               <span
                 className="text-xs text-secondary"
                 style={{ color: "#1F2937", fontWeight: 500 }}
