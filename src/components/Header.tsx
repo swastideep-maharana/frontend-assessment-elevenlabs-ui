@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export function Header({ active }: { active: string }) {
   return (
@@ -76,21 +75,6 @@ export function Header({ active }: { active: string }) {
           History
         </Link>
       </nav>
-      <div className="flex items-center space-x-4">
-        <span
-          className="text-secondary"
-          style={{ color: "#1F2937", fontWeight: 500 }}
-        >
-          User
-        </span>
-        <Image
-          src="https://randomuser.me/api/portraits/men/32.jpg"
-          alt="User Avatar"
-          width={32}
-          height={32}
-          className="w-8 h-8 rounded-full object-cover"
-        />
-      </div>
     </header>
   );
 }
