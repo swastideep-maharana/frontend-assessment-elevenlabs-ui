@@ -14,7 +14,7 @@ A modern, professional Next.js frontend inspired by ElevenLabs, featuring a beau
   - Conversational AI
   - Subscription
   - History
-- **Meta Tags:** SEO and social sharing optimized.
+
 
 ### Prerequisites
 
